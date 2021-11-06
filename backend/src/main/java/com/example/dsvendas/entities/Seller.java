@@ -23,7 +23,7 @@ public class Seller implements Serializable {
 	private String name;
 
 	@OneToMany(mappedBy = "seller")
-	private List<Sale> sales = new ArrayList();
+	private List<Sale> sales = new ArrayList<>();
 
 	public Seller() {
 	}
